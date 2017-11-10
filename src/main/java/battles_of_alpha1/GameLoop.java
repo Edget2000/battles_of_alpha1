@@ -1,6 +1,7 @@
 package battles_of_alpha1;
 
-import battles_of_alpha1.inventory.inventory;
+import battles_of_alpha1.character.Character;
+import battles_of_alpha1.inventory.Inventory;
 
 public class GameLoop {
 
@@ -12,7 +13,8 @@ public class GameLoop {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");
 		
-		inventory inv = new inventory();
+		Inventory inv = new Inventory();
+		Character cha = new Character();
 		
 		
 	}

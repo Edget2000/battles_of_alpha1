@@ -1,8 +1,8 @@
 package battles_of_alpha1.inventory;
 
-public class inventory {
+public class Inventory {
 
-	public inventory() {
+	public Inventory() {
 		System.out.println("Hello From The Inventory Class");
 	}
 
