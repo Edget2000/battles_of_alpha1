@@ -1,6 +1,7 @@
 package battles_of_alpha1;
 
 import battles_of_alpha1.character.Character;
+import battles_of_alpha1.game.Game;
 import battles_of_alpha1.gui.Gui;
 import battles_of_alpha1.inventory.Inventory;
 import battles_of_alpha1.monsters.Monsters;
@@ -19,6 +20,7 @@ public class GameLoop {
 		Character cha = new Character();
 		Gui gui = new Gui();
 		Monsters mon = new Monsters();
+		Game game = new Game();
 		
 		
 	}
